@@ -361,6 +361,15 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+/* Removed from HTML */
+.keywords{
+    color:#595959;
+    font-size:1px;
+}
+/* Removed from HTML and changed color */
+.social > .keywords{
+    color:#FFFFFF;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -651,7 +660,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #E6E6E6!important;
 }
 
 .container {
@@ -781,12 +790,12 @@ h4 {
 }
 
 .tc-white {
-    color: #364577!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #080808!important;
 }
 
 .btn-atomic-tangerine:hover {
