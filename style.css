@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    line-height: 1.5;
 }
 
 a,
@@ -154,7 +155,11 @@ a:hover {
 }
 
 .d-bloc .navbar-toggle .icon-bar {
-    background: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, .6);
+}
+.nav > li a{
+    color: #575757 !important;
+
 }
 
 .d-bloc .btn-wire,
@@ -272,6 +277,13 @@ a:hover {
     margin-top: 80px;
 }
 
+strong{
+    font-style: italic;
+}
+.voffset h3{
+    color: #333333 !important;
+}
+
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -285,6 +297,8 @@ a:hover {
 
 #bloc-2-services p {
     font-size: 11px;
+    color: #333333 !important;
+
 }
 
 .navbar {
@@ -369,6 +383,9 @@ a:hover {
 /* Removed from HTML and changed color */
 .social > .keywords{
     color:#FFFFFF;
+}
+.col-sm-4 li a{
+    color:rgba(255, 255, 255, .7) !important;
 }
 
 @media (min-width: 768px) {
@@ -660,7 +677,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #E6E6E6!important;
+    color: #575757!important;
 }
 
 .container {
@@ -694,7 +711,7 @@ p {
     margin: auto auto auto auto;
 }
 
-.h1 {
+.h1, .h2 {
     font-size: 20px;
     font-family: "Open Sans";
 }
@@ -713,17 +730,11 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
+h3 {
     font-size: 22px;
     line-height: 1.4em;
 }
 
-h3 {
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #333333!important;
-}
 
 .med-width-whitespace {
     max-width: 800px;
@@ -731,11 +742,18 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
+h1, h2 {
     color: #333333!important;
 }
 
 h4 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333!important;
+}
+
+h5 {
     color: #333333!important;
 }
 
@@ -828,7 +846,7 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
-.bg-lines-h2-bg {
+.bg-lines-h3-bg {
     background-image: url("img/lines-h2-bg.png");
 }
 
@@ -863,13 +881,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -887,10 +905,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -899,8 +913,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -949,6 +961,7 @@ h4 {
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
     }
+
     .dropdown .dropdown a .caret {
         float: none;
         margin: 5px 0 0 10px!important;
