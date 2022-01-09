@@ -464,6 +464,10 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333!important;    
 }
 
 .mg-lg {
@@ -743,17 +747,6 @@ h3 {
 }
 
 h1, h2 {
-    color: #333333!important;
-}
-
-h4 {
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #333333!important;
-}
-
-h5 {
     color: #333333!important;
 }
 
