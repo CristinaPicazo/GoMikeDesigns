@@ -716,13 +716,6 @@ p {
     margin: auto auto auto auto;
 }
 
-.tight-width-whitespace img{
-    height: 10rem;
-    width: 10rem;
-}
-
-
-
 .h1, .h2 {
     font-size: 20px;
     font-family: "Open Sans";
