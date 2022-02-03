@@ -36,11 +36,10 @@ OpenClassRooms Web Developer Project 4. Audit of the SEO, performance and access
 
 # Last LightHouse Contact
 [Last lighthouse contact desktop.pdf](https://github.com/CristinaPicazo/GoMikeDesigns/files/7954346/Last.lighthouse.contact.desktop.pdf)
-![image](https://user-images.githubusercontent.com/47087596/151881315-12c4118f-9be9-43b7-8132-4f8ea4ed435e.png)
+![image](https://user-images.githubusercontent.com/47087596/152427875-2238b10f-67c9-45c2-97d9-570ffc605412.png)
 
 [Last lighthouse contact mobile.pdf](https://github.com/CristinaPicazo/GoMikeDesigns/files/7954347/Last.lighthouse.contact.mobile.pdf)
-![image](https://user-images.githubusercontent.com/47087596/151881369-6e279b5e-e66c-47e1-aed7-17f0570ca42b.png)
-
+![image](https://user-images.githubusercontent.com/47087596/152427957-a9b621ce-257b-4776-b09b-7931e29f031b.png)
 
 # Published
 https://cristinapicazo.github.io/GoMikeDesigns/
